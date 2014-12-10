@@ -1,0 +1,13 @@
+i_advize_vdm:
+    resource: "@IAdvizeVdmBundle/Resources/config/routing.yml"
+    prefix:   /
+
+app:
+    resource: @AppBundle/Controller/
+    type:     annotation
+
+#REST 
+rest : 
+    type : rest 
+    resource : "routing_rest.yml"
+    prefix : /api

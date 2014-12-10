@@ -1,0 +1,3 @@
+i_advize_getvdm:
+    path:     /getVdm
+    defaults: { _controller: IAdvizeVdmBundle:GetVdm:getVdm }

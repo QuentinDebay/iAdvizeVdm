@@ -1,0 +1,5 @@
+services:
+    database_controller:
+        class:  IAdvize\VdmBundle\Controller\VdmController
+        arguments :
+            - ["@doctrine.orm.entity_manager"]

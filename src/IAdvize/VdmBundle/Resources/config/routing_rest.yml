@@ -1,0 +1,4 @@
+vdm :
+  type: rest
+  resource:     "IAdvizeVdmBundle:VdmRest"
+  name_prefix:  api_
